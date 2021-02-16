@@ -1,1 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+section h3 {
+  text-transform: uppercase;
+  color: grey;
+  text-align: center;
+  padding: 20px 0;
+}
+
+ /* MIX */
+.bg_grey{
+  background: rgb(243, 245, 249);
+}
+
+.text_center{
+  text-align: center;
+}
+
+/* SECTION SPONSOR */
+.sponsor_box{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.sponsor_box a{
+  text-decoration: none;
+}
+
+.sponsor_img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sponsor_img img{
+  flex-basis: calc((100% / 6) - 4px);
+  padding: 0 10px;
+}
+
+/* SECTION DEPLOY */
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 992px){
+  .sponsor_img img{
+    flex-basis: calc(50% - 4px);
+  }
+}
